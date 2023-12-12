@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 2022.x
+      - master
   pull_request:
     branches:
-      - 2022.x
+      - master
 jobs:
   deploy-docker-image:
     runs-on: ubuntu-latest
